@@ -1,10 +1,12 @@
 <?php
-class Customer{
+class Customer
+{
     public $id;
     public $name;
     public $mail;
 
-    public function getCustomer($id){
+    public function getCustomer($id)
+    {
         $this->id = $id;
         return 'jon';
     }
